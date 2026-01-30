@@ -1,1 +1,1 @@
-Variables and Expansions project
+Shell init files, variables and expansions
