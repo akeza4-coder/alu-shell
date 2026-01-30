@@ -1,1 +1,1 @@
-My project README
+Variables and Expansions project
