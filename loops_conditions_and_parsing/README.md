@@ -1,1 +1,1 @@
-This project covers Bash loops, conditions, and parsing.
+Tasks on Bash loops, conditions and parsing
