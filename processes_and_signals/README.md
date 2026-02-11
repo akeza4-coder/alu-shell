@@ -1,1 +1,1 @@
-Project regarding Linux processes and signals
+Project on processes and signals
