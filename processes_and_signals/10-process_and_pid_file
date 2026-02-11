@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# This script manages its own PID file and handles multiple signals
+
+# Save the current Process ID to the specified file
+echo "$$" > /var/run/myscript.pid
+
+# Trap SIGINT: Display message and continue
+trap 'echo "Y U no love me?!"' SIGINT
+
+# Trap SIGTERM: Display message, delete PID file, and exit
+trap 'echo "I hate the kill command"; rm /var/run/myscript.pid; exit' SIGTERM
+
+# Trap SIGQUIT: Delete PID file and exit
+trap 'rm /var/run/myscript.pid; exit' SIGQUIT
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done

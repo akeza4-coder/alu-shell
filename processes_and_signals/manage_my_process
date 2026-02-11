@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Helper script that runs indefinitely
+while true
+do
+    echo "I am alive!"
+    sleep 2
+done
