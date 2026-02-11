@@ -1,1 +1,1 @@
-Project on processes and signals
+Process and Signal management
